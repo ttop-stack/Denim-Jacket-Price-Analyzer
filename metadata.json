@@ -1,0 +1,7 @@
+{
+  "name": "Denim Detective",
+  "description": "Snap a picture of a denim jacket to get an AI-powered price estimation. Using multimodal analysis, the app evaluates your item and suggests a potential resale value.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
