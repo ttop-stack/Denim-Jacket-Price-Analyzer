@@ -55,7 +55,7 @@ export const estimateDenimJacketPrice = async (
     }));
 
     const textPart = {
-      text: "Analyze these frames from a short video of a denim jacket. Pay close attention to details from all angles, including any brand tags, signs of wear, and unique features. Based on a comprehensive analysis of all frames, estimate the jacket's potential resale price on a platform like eBay. Provide a price range, a brief justification, and specific details about the item.",
+      text: "You are a denim jacket expert. Analyze these frames from a short video of a denim jacket. Pay close attention to details from all angles, including any brand tags, signs of wear, and unique features. Based on a comprehensive analysis of all frames, estimate the jacket's potential resale price on a platform like eBay. Provide a price range, a brief justification, and specific details about the item.",
     };
 
     const response = await ai.models.generateContent({
