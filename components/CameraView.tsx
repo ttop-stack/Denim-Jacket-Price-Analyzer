@@ -188,7 +188,7 @@ const CameraView: React.FC<CameraViewProps> = ({ onCapture, isLoading }) => {
 
       <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col items-center z-10">
         <div className="bg-white/20 backdrop-blur-md p-4 rounded-xl text-center text-white mb-6">
-            <h2 className="font-bold text-lg">Record a Short Video</h2>
+            <h2 className="font-bold text-lg">Record a Short Video of your Jacket</h2>
             <p className="text-sm">Capture all angles, including tags and details.</p>
         </div>
         <RecordButton />
