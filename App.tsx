@@ -52,7 +52,7 @@ const App: React.FC = () => {
       )}
       <Spinner />
       <h2 className="text-xl font-semibold mt-6">Analyzing Video...</h2>
-      <p className="text-gray-300 mt-2 text-center">Our AI is inspecting your jacket from all angles. <br/>This might take a moment.</p>
+      <p className="text-gray-300 mt-2 text-center">Our AI is inspecting your jacket from all angles. <br/>This may take a moment.</p>
     </div>
   );
 
