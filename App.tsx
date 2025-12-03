@@ -63,7 +63,7 @@ const App: React.FC = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </div>
-      <h2 className="text-2xl font-bold mb-2">Something Went Wrong</h2>
+      <h2 className="text-2xl font-bold mb-2">Uh Oh!!!!</h2>
       <p className="text-center text-red-700 mb-8 max-w-md">{error}</p>
       <button
         onClick={handleReset}
